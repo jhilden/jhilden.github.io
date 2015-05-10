@@ -1,0 +1,13 @@
+# Site settings
+title: Protfolio of Jakob Hilden
+email: jakobhilden@gmail.com
+description: My portfolio site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jkwebs.de" # the base hostname & protocol for your site
+twitter_username: jkwebs
+github_username:  jhilden
+
+# Build settings
+markdown: kramdown
+
+exclude: [sass, Gemfile, Gemfile.lock, README.md, bower.json, config.rb]

@@ -9,6 +9,10 @@
   margin-top: 0
 
 .portfolio-item--image
-  border: 1px solid $hr-border-color
+  border: $hr-border
   width: 100%
   margin-bottom: $padding
+
+  @media print
+    max-width: 200px
+

@@ -11,3 +11,8 @@ github_username:  jhilden
 markdown: kramdown
 
 exclude: [sass, Gemfile, Gemfile.lock, README.md, bower.json, config.rb]
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules/foundation-sites/scss/

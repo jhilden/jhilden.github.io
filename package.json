@@ -1,0 +1,11 @@
+{
+  "name": "jhilden.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jhilden/jhilden.github.io.git",
+  "author": "Jakob Hilden <jakobhilden@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "^6.3.1"
+  }
+}

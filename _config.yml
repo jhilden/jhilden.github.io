@@ -6,11 +6,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jkwebs.de" # the base hostname & protocol for your site
 twitter_username: jkwebs
 github_username:  jhilden
+safe: false
 
 # Build settings
 markdown: kramdown
 
-exclude: [sass, Gemfile, Gemfile.lock, README.md, bower.json, config.rb]
+exclude: [sass, Gemfile, Gemfile.lock, README.md, node_modules, config.rb]
 
 sass:
   load_paths:

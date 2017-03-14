@@ -5,14 +5,21 @@
   padding-top: $padding
   margin-bottom: $margin
 
+  @media print
+    border-bottom: $hr-border
+    &.last
+      border-bottom: none
+
+
 .portfolio-item--title
   margin-top: 0
 
 .portfolio-item--image
   border: $hr-border
   width: 100%
-  margin-bottom: $padding
+  margin-bottom: $margin
 
   @media print
-    max-width: 200px
+    width: 200px
+    float: right
 

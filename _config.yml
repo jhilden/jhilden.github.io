@@ -11,7 +11,7 @@ safe: false
 # Build settings
 markdown: kramdown
 
-exclude: [sass, Gemfile, Gemfile.lock, README.md, node_modules, config.rb]
+exclude: [sass, Gemfile, Gemfile.lock, README.md, node_modules, package.json, yarn.lock]
 
 sass:
   load_paths:
